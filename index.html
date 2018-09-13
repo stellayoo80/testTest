@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fonts</title>
+
+    <!--reference an external style sheet! -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <style media="screen">
+    @import url('http://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+    @import url('https://fonts.googleapis.com/css?family=Princess+Sofia');
+
+    /* load a custom font saved in a foler */
+    @font-face {
+      font-family: "3Dumb";
+      src: url('fonts/3Dumbs.ttf');
+    }
+
+    *{
+      font-family: "Muna", cursive;
+      border: 5px dashed red;
+      text-align: center;
+    }
+
+    span{
+      font-size: 50px;
+    }
+
+    div{
+      font-family: "Luminari";
+      font-size: 30px;
+      display: inline;
+    }
+
+    #barcode{
+      font-family: 'Libre Barcode 128 Text', cursive;
+      font-size: 45px;
+      font-weight: 100;
+      line-height: 70px;
+    }
+
+    #sofia{
+      font-family: 'Princess Sofia';
+      text-shadow: 10px 10px 1px rgba(255, 6, 0, 0.7);
+      font-size: 45px;
+    }
+
+    marquee{
+      background-color: blue;
+      font-family: "Ariel";
+      color: red;
+      font-size: 30px;
+      }
+
+
+    </style>
+  </head>
+
+  <body>
+    <h1> SUGAR SUGAR SUGAR </h1>
+    <p><div>The most popular symbol of <span>Chicago</span> is its flag. The Chicago flag consists of a two horizontal light blue stripes layered on a white flag.</div> </p>
+
+    <p id="sofia"> A standard cupcake uses the same basic ingredients as standard-sized cakes: butter, sugar, eggs, and flour. Nearly any recipe that is suitable for a layer cake can be used to bake cupcakes. The cake batter used for cupcakes may be flavored or have other ingredients stirred in, such as raisins, berries, nuts, or chocolate chips. </p>
+
+    <p id="barcode"> The earliest extant description of what is now often called a cupcake was in 1796, when a recipe for "a light cake to bake in small cups" was written in American Cookery by Amelia Simmons.[1][2] The earliest extant documentation of the term cupcake itself was in "Seventy-five Receipts for Pastry, Cakes, and Sweetmeats" in 1828 in Eliza Leslie's Receipts cookbook.</p>
+
+  </body>
+</html>
